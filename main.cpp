@@ -37,7 +37,7 @@ class Student {
 
 int main(){
 
-  cout << "Hello worldies\n\n";
+  cout << "Hello world\n";
 
   int a = 90;
   string name = "Dallington";
