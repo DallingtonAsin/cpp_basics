@@ -35,16 +35,18 @@ class Student {
 
 };
 
+void sum(int a, double b){
+  double sum = a + b;
+  cout << "\nThe sum of a and b is " << sum << endl;
+}
+
 int main(){
 
   cout << "Hello world\n";
 
   int a = 90;
   string name = "Dallington";
-
-
   std::cout << "\nThe value of a is " << a << std::endl;
-
 
   Employee emp;
   emp.name = "Dallington";
@@ -55,6 +57,8 @@ int main(){
 
   Student stud("Dallington Asingwire", 90);
   stud.getStudentDetails();
+
+  sum(15, 25.5);
 
 
   return 0;
