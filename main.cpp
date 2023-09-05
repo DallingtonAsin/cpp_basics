@@ -40,6 +40,18 @@ void sum(int a, double b){
   cout << "\nThe sum of a and b is " << sum << endl;
 }
 
+float product(float a, double b){
+   return a*b;
+}
+
+void isOld(int age){
+  if(age >= 18){
+    cout << "The person whose age is " << age << " is old" << endl;
+  }else{
+   cout << "The person whose age is " << age << " is still young" << endl;
+  }
+}
+
 int main(){
 
   cout << "Hello world\n";
@@ -59,7 +71,20 @@ int main(){
   stud.getStudentDetails();
 
   sum(15, 25.5);
+  isOld(17);
+  isOld(25);
 
+
+  float x;
+  double y;
+
+  cout << "Enter the value of x: ";
+  cin >> x;
+
+  cout << "Enter the value of y: ";
+  cin >> y;
+
+  cout << "The product of "<< x << " and " << y << " is " << product(x, y) << endl;
 
   return 0;
 
