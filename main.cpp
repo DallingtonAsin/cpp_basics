@@ -74,6 +74,8 @@ int main(){
   isOld(17);
   isOld(25);
 
+ char v = 'V';
+  cout << "The character v is " << v <<  endl;
 
   float x;
   double y;
@@ -85,6 +87,8 @@ int main(){
   cin >> y;
 
   cout << "The product of "<< x << " and " << y << " is " << product(x, y) << endl;
+
+
 
   return 0;
 
